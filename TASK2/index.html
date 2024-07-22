@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="page-container"><h5 class="gallery-heading">IMAGE GALLERY</h5>
+    <div class="gallery-container">
+       
+        <div class="gallery">
+            <div class="slide">
+                <img src="image1.jpg" alt="Image 1" class="gallery-image">
+                <div class="caption">Nature always wears the colors of of the sprit.</div>
+            </div>
+            <div class="slide">
+                <img src="image2.jpg" alt="Image 2" class="gallery-image">
+                <div class="caption">Nature is the purest portal to inner-peace.</div>
+            </div>
+            <div class="slide">
+                <img src="image3.jpg" alt="Image 3" class="gallery-image">
+                <div class="caption">Everything in nature invites us constantly to be what we are. </div>
+            </div>
+            <div class="slide">
+                <img src="image4.jpg" alt="Image 4" class="gallery-image">
+                <div class="caption">Nature is the art of God.</div>
+            </div>
+            <div class="slide">
+                <img src="image5.jpg" alt="Image 5" class="gallery-image">
+                <div class="caption">Where flowes bloom so does hope.</div>
+            </div>
+            <div class="slide">
+                <img src="image6.jpg" alt="Image 6" class="gallery-image">
+                <div class="caption">Nature reflects something of the spirit.</div>
+            </div>
+            
+        </div>
+        <div class="controls">
+            <button id="prevBtn">&lt; PREV</button>
+            <button id="nextBtn">  NEXT &gt;</button>
+        </div>
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+             <span class="dot" onclick="currentSlide(4)"></span>
+             <span class="dot" onclick="currentSlide(5)"></span>
+            
+        </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
